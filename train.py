@@ -1,6 +1,6 @@
-# from model import Model
-from model_with_self_attention import Model
-from load_data import load_data
+# from src.model import Model
+from src.model_with_self_attention import Model
+from src.load_data import load_data
 
 import torch.nn as nn
 import torch.optim as optim
