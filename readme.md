@@ -35,5 +35,14 @@ I iterated five epochs of training. The results are shown as below.
 ## Note
 You can use trained weights for the models. Those are stored in `./weight/weight_w_attention.pth` and `./weight/weight.pth`, respectively.
 
+## Attention Visualization
+I have added a feature to visualize self-attention weights. You can use this feature by just running `python train.py`. And, you'll find visualized figures in `./fig/`.
+
+A sample image is shown below:  
+![attention weight image sample](./fig/attention_1.png)
+
+More details are available in [my blog post](https://gucci-j.github.io/SA-Visualization/).
+
+
 ## License
 [MIT](./LICENSE)
